@@ -1,0 +1,30 @@
+.main {
+    grid-area: sideblock;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 300px
+}
+.span {
+    color: #8E8E93;
+    font-size: medium;
+    margin-top: 15px;
+}
+
+.input {
+    margin-top: 15px;
+    text-align: center;
+    height: 25px;
+    border: none;
+    color: #7F8C8D;
+    font-size: large;
+}
+.input:focus {
+    outline: none;
+}
+
+.button {
+   width: 100px;
+
+}

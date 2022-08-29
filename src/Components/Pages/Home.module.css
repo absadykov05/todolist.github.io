@@ -1,0 +1,91 @@
+.main {
+    display: grid;
+    grid-template-rows: 1fr 100px;
+    grid-template-columns: 1fr;
+    height: 100%;
+    background-color: gold;
+}
+
+.Tasks {
+    display: flex;
+    flex-direction: column;
+}
+
+.task {
+    display: grid;
+    width: 95%;
+    margin-left: 2.5%;
+    height: 50px;
+    grid-template-columns: 100px 1fr 50px 35px;
+    margin-top: 20px;
+    background-color: #F7F7F7;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.title_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.span {
+    font-size: small;
+    color: #8E8E93;
+}
+
+.imgDone {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.imgDelete {
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+
+img:hover {
+}
+
+.input_and_button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    margin-left: 2.5%;
+}
+
+.input {
+    width: 95%;
+    height: 35px;
+    border-radius: 10px;
+    border: 1px solid #8E8E93;
+    color: #7F8C8D;
+}
+
+.input:active {
+    border: 1px solid #8E8E93;
+}
+
+.button {
+    height: 40px;
+    border-radius: 10px;
+    color: #8E8E93;
+    border: 1px solid #8E8E93;
+}
+
+
+@media (max-width: 767px) {
+    .input {
+        width: 60%;
+    }
+}
+
+
+

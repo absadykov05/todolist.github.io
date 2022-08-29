@@ -1,0 +1,37 @@
+.main {
+/*    width: 100px;*/
+/*    height: 80px;*/
+    background-color: white;
+    border: 1px solid #C7C7CC;
+    border-radius: 5px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.main div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100px;
+    height: 30px;
+    align-items: center;
+    border-radius: 2.5px;
+    margin: 2.5px;
+    cursor: pointer;
+    color: #8E8E93
+}
+.main div:hover {
+    background-color: #6B99C3;
+    color: #fff;
+}
+.main div img {
+    width: 15px; height: 15px; margin-right: 5px; margin-left: 2.5px; margin-top: 2.5px;
+}
+.main div img:hover {
+    color: white;
+}
+
